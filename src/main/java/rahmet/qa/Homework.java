@@ -10,8 +10,8 @@ public class Homework {
         cheetah.height = 40;
         cheetah.speed = 123;
         cheetah.vertebrate = true;
-        cheetah.animalRun();
-        cheetah.animalVoice();
+        cheetah.run();
+        cheetah.voice();
 
         Animal mouse = new Animal();
         mouse.name = "Мышь";
@@ -19,19 +19,19 @@ public class Homework {
         mouse.height = 15;
         mouse.speed = 2;
         mouse.vertebrate = true;
-        mouse.animalCrawl();
-        mouse.animalVoice();
+        mouse.crawl();
+        mouse.voice();
 
         Room pillow = new Room();
         pillow.name = "Подушка";
         pillow.weight = 1;
         pillow.soft = true;
-        pillow.thingToLivingRoom();
+        pillow.moveToLivingRoom();
 
         Room bowl = new Room();
         bowl.name = "Миска";
         bowl.weight = 2;
         bowl.soft = false;
-        bowl.thingToKitchen();
+        bowl.moveToKitchen();
     }
 }

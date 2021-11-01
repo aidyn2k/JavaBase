@@ -7,15 +7,15 @@ public class Animal {
     public int speed;
     public boolean vertebrate;
 
-    public void animalCrawl() {
+    public void crawl() {
         System.out.println(name + " ползает со скоростью " + speed + " км/ч");
     }
 
-    public void animalRun() {
+    public void run() {
         System.out.println(name + " бегает со скоростью " + speed + " км/ч");
     }
 
-    public void animalVoice() {
+    public void voice() {
         System.out.println("Это животное издаёт звук");
     }
 }

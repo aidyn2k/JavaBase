@@ -5,11 +5,11 @@ public class Room {
     public int weight;
     public boolean soft;
 
-    public void thingToKitchen() {
+    public void moveToKitchen() {
         System.out.println("Нужно перенести этот предмет на кухню");
     }
 
-    public void thingToLivingRoom() {
+    public void moveToLivingRoom() {
         System.out.println("Нужно перенести этот предмет в спальню");
     }
 }
