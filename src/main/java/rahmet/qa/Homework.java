@@ -1,9 +1,19 @@
 package rahmet.qa;
 
-import java.nio.file.WatchEvent;
-
 public class Homework {
     public static void main(String[] args) {
+
+        Smartphone iPhoneXr = new Smartphone();
+        InfoAboutCamera camera = new InfoAboutCamera();
+
+        iPhoneXr.setModel("XR");
+        iPhoneXr.setCountOfDevices(17);
+        iPhoneXr.setTouchId(false);
+
+        camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getCountOfDevices(), iPhoneXr.getTouchId());
+
+        iPhoneXr.smartphoneGoesSilenceMode();
+
         Animal cheetah = new Animal();
         cheetah.name = "Гепард";
         cheetah.weight = 50.0;
