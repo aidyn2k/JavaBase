@@ -1,0 +1,4 @@
+- added class Smartphone with getters and setters
+- added class InfoAboutCamera
+- added internal class Camera into class Smartphone
+- added static variables
