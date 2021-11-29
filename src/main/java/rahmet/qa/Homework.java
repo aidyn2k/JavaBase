@@ -3,14 +3,14 @@ package rahmet.qa;
 public class Homework {
     public static void main(String[] args) {
 
-        Smartphone iPhoneXr = new Smartphone();
+        Iphone iPhoneXr = new Iphone();
         InfoAboutCamera camera = new InfoAboutCamera();
 
         iPhoneXr.setModel("XR");
-        iPhoneXr.setCountOfDevices(17);
+        iPhoneXr.setmPixels(12);
         iPhoneXr.setTouchId(false);
 
-        camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getCountOfDevices(), iPhoneXr.getTouchId());
+        camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getmPixels(), iPhoneXr.getTouchId());
 
         iPhoneXr.smartphoneGoesSilenceMode();
 

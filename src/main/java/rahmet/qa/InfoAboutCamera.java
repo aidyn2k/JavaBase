@@ -2,14 +2,14 @@ package rahmet.qa;
 
 public class InfoAboutCamera {
 
-    Smartphone iPhone = new Smartphone();
-    Smartphone.Camera camera = new Smartphone.Camera();
+    Iphone iPhone = new Iphone();
+    Iphone.Characteristics chars = new Iphone.Characteristics();
 
     public void aboutCamera(String model, int countOfDevices, boolean touchId) {
         System.out.println("Model: " + model);
-        System.out.println("Count of devices: " + countOfDevices);
+        System.out.println("Count of megapixels: " + countOfDevices);
         System.out.println("It has TouchId: " + touchId);
-        System.out.println("Device: " + Smartphone.device);
-        camera.outputCameraChars();
+        System.out.println("Device: " + Iphone.device);
+        chars.outputIphoneChars();
     }
 }
