@@ -19,6 +19,7 @@ public class Homework {
         camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getmPixels(), iPhoneXr.getTouchId());
 
         iPhoneXr.smartphoneGoesSilenceMode();
+        iPhoneXs.smartphoneGoesSilenceMode();
 
         Animal cheetah = new Animal();
         cheetah.name = "Гепард";

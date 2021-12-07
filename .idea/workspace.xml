@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aa38050-6c4e-4c60-849f-806de6d86214" name="Changes" comment="renamed class to Iphone, changed variable to mPixels, changed static class to Characteristics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rahmet/qa/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rahmet/qa/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
