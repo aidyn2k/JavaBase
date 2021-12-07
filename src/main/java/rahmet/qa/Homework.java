@@ -6,9 +6,15 @@ public class Homework {
         Iphone iPhoneXr = new Iphone();
         InfoAboutCamera camera = new InfoAboutCamera();
 
+        Iphone iPhoneXs = new Iphone();
+
         iPhoneXr.setModel("XR");
         iPhoneXr.setmPixels(48);
         iPhoneXr.setTouchId(false);
+
+        iPhoneXs.setModel("XS");
+        iPhoneXs.setmPixels(21);
+        iPhoneXs.setTouchId(true);
 
         camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getmPixels(), iPhoneXr.getTouchId());
 
