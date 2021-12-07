@@ -7,7 +7,7 @@ public class Homework {
         InfoAboutCamera camera = new InfoAboutCamera();
 
         iPhoneXr.setModel("XR");
-        iPhoneXr.setmPixels(12);
+        iPhoneXr.setmPixels(48);
         iPhoneXr.setTouchId(false);
 
         camera.aboutCamera(iPhoneXr.getModel(),iPhoneXr.getmPixels(), iPhoneXr.getTouchId());
